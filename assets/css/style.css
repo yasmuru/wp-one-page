@@ -1,0 +1,450 @@
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #fff;
+}
+
+#services hr {
+    border-color:#fff;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.site-inner {
+    margin-top: 50px;
+}
+
+#portfolio {
+
+    background: 50% 0 no-repeat fixed; 
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(64, 126, 240, 0.74);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+    #services {
+        height: 100%;
+    }
+}
+
+/*** Modules ****/
+
+#services {
+    background: 50% 0 no-repeat fixed; 
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.text-center {
+    z-index:100;
+}
+
+@media(max-width:768px) {
+    #services {
+        height: auto !important;
+    }
+
+    #portfolio {
+        height: auto !important;
+    }
+}
+
+.service-box a:hover {
+    cursor: pointer;
+}
+
+#btn-close-modal {
+                width:100%;
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+            }
+.modal-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /*background-color: #599CF4;*/
+}
+
+.modal-content p, .modal-content h4 {
+    /*color: #fff;*/
+}
+
+.modal-content h3, .modal-content p {
+    margin-left: 10px;
+    text-align: center;
+    /*color: #fff;*/
+}
+
+#clients {
+    padding: 100px 20px;
+    /*padding-bottom: 100px;*/
+    
+  background: -webkit-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* W3C */
+        
+}
+
+.thumbnail {
+    padding:0px;
+}
+
+section#contact {
+    background-color: cadetblue;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+section#address {
+    background: #028E73;
+    font-family: cursive;
+}
+
+.contact-address {
+    padding: 20px;
+    background: #fff;
+    margin: 0 20%;
+}
+
+.contact-address p {
+    line-height: 1;
+    /*margin-bottom: 10px;*/
+}
+
+#more_details {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #337ab7;
+}
+
+.content {
+    padding: 50px 0;
+background-color: #FFF;
+border-top: solid 1px #ECECEC;
+}
+
+.content img {
+     margin: 0 auto;
+}
+
+.sidebar-box {
+float: left;
+width: 28%!important;
+margin-top: 50px;
+background-color: #fff;
+}
+
+.polygon {
+position: relative;
+overflow: hidden;
+margin-bottom: 0;
+}
+
+.polygon .polygon__bg {
+position: absolute;
+top: 0;
+left: 0;
+right: -50px;
+bottom: 0;
+z-index: 1;
+}
+
+.polygon .polygon__content {
+position: relative;
+z-index: 2;
+background:cornflowerblue;
+border-radius: 40px;
+}
+
+
+
+.sidebar-box ul>li {
+display: block;
+}
+
+.sidebar-box ul>li>a {
+position: relative;
+padding: 20px;
+display: block;
+color: #fff;
+font-weight: 400;
+font-size: 16px;
+}
+
+.sidebar-box ul>li>a:after {
+content: "";
+position: absolute;
+left: 20px;
+bottom: 10px;
+width: 0;
+height: 2px;
+background-color: #fff;
+transition: all .5s ease;
+}
+
+.sidebar-box ul>li>a:hover, .sidebar-box ul>li>a.current {
+    color: blue;
+}
+
+.content {
+    max-width: 1140px;
+margin: 0 auto;
+float: none;
+}
+
+.content .entry {
+float: right;
+max-width: 70%!important;
+padding: 20px!important;
+background-color: #fff;
+overflow: hidden;
+margin: 0 auto;
+clear: both;
+}
+
+.site-inner:after{
+clear: both;
+content: " ";
+display: table;
+}
+
+.inner-content .heading h3 {
+    font-size: 35px;
+text-transform: capitalize;
+padding: 10px;
+}
+
+.inner-post-content {
+    padding: 20px;
+}
+
+ .inner-post-content ul>li {
+    padding: 5px 0;
+ }
+
+ .document-page {
+    padding-top: 140px;
+ }
+
+ footer ul li {
+    display: block;
+ }
+
+ @media(max-width:767px) {
+.polygon .polygon__content {
+    display: none;
+}
+.content .entry {
+    width: 100% !important;
+}
+
+.navbar-brand {
+   /* margin-left: 35%;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-size: 210px;*/
+}
+}
